@@ -1,6 +1,6 @@
 {
   "name": "@med-amine-elazzab/design-system",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Harmony UI is a collection of React components and hooks that help you build beautiful and accessible user interfaces. ",
   "license": "MIT",
   "main": "dist/cjs/index.js",
