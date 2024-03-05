@@ -1,6 +1,6 @@
 {
-  "name": "@harmony/design-system",
-  "version": "0.0.1",
+  "name": "@med-amine-elazzab/design-system",
+  "version": "0.0.2",
   "description": "Harmony UI is a collection of React components and hooks that help you build beautiful and accessible user interfaces. ",
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -9,8 +9,9 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/MedAmineElazzab"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmineElazzab/design-system.git"
   },
   "scripts": {
     "dev": "rollup -c --watch",
