@@ -23,7 +23,17 @@ const buttonStyles = cva(
         lg: "px-6 py-3 text-lg",
       },
       colorscheme: {
-        primary: "text-white",
+        primary: "text-white bg-primary-500",
+        secondary: "text-white bg-secondary-500",
+        danger: "text-white bg-red-500",
+        warning: "text-white bg-yellow-500",
+        success: "text-white bg-green-500",
+        info: "text-white bg-blue-500",
+        light: "text-gray-900 bg-gray-100",
+        dark: "text-white bg-gray-900",
+      },
+      disabled: {
+        true: "opacity-50",
       },
     },
     compoundVariants: [
